@@ -18,3 +18,18 @@ text.style.cssText =
     "padding: 20px 0; color: hotpink; background-color: beige";
 
 //자바스크립트 style안됨 ↑
+
+
+
+const mainText1 = document.querySelector(".box5");
+
+window.addEventListener('scroll',function (){
+    let value = window.scrollY
+    console.log("scrollY", value);
+
+    if (value>100) {
+        mainText1.style.animation='disappear 1s ease-out forwards';
+    } else {
+        mainText1.style.animation='disappear2 1s ease-out forwards';
+    }
+});

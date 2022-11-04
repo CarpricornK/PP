@@ -32,39 +32,39 @@
 
 
 <style>
-
-<%@ include file="../dummy/css/header.css"%>
-
+    <%@ include file="../dummy/css/header.css"%>
 </style>
 
 
-<script>
-    <%@ include file="../dummy/js/animation1.js"%>
-</script>
-
 <body>
 
-<div class="box1">
-    <div class="box2 d-flex justify-content-center">
-        <a>
-            1111111
-        </a>
-        <a>
-            2222222
-        </a>
-        <a>
-            3333333
-        </a>
-        <a>
-            4444444
-        </a>
-        <a>
-            5555555
-        </a>
+<div class="image1 box7">
+    <br/>
+    <div class="box2 mx-5 d-flex justify-content-center">
+
     </div>
 
-    <div class="box4 row d-flex justify-content-center">
+    <div class="box6 d-flex mt-4 justify-content-center row">
 
+    </div>
+
+    <div class="d-flex mt-4 justify-content-center row">
+        <div class="card1 ml-1"></div>
+
+        <div class="card2 mx-3"></div>
+
+        <div class="card3 mr-1"></div>
+    </div>
+
+    <div class="box5 d-flex justify-content-center container-fluid">
+
+
+    </div>
+</div>
+
+
+<div class="image2 box7">
+    <div class="box4 row d-flex justify-content-center">
         <div class="cardbox4 mx-2 color1">
 
         </div>
@@ -77,24 +77,29 @@
 
         </div>
 
+        <div class="cardbox4 mx-2 color2">
+
+        </div>
 
     </div>
+</div>
 
 
-
-
+<div class="image3 box7"></div>
 <%--    <div class="box3">--%>
 <%--        <div class="movie">--%>
 <%--            <div data-vbg-autoplay="true" data-vbg="https://youtu.be/mkggXE5e2yk"></div>--%>
 <%--        </div>--%>
 <%--    </div>--%>
-</div>
-
 
 <a href="#" class="top">Top</a>
 
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 </body>
 
+
+<script>
+    <%@ include file="../dummy/js/animation1.js"%>
+</script>
 
 </html>
