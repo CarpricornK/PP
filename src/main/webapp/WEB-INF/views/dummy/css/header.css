@@ -2,6 +2,10 @@ body{
 
 }
 
+.box6 {
+    height: 0px;
+}
+
 small{
     font-size:16px
 }
@@ -12,8 +16,7 @@ a {
 
 .box2{
     background-color: black;
-    height: 100px;
-    border-radius: 5px;
+    height: 300px;
     opacity: .3;
 }
 
@@ -35,32 +38,33 @@ a {
 }
 
 .box5 {
+    margin-top: 150px;
     background-color: black;
-    margin-top: 40px;
     height: 1200px;
-    opacity: 0.2;
+    opacity: .3;
 }
+
+
 .bbox{
-    width: 1000px;
+    width: 100%;
 }
 
 .box5card{
+    margin-top: 50px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     border-radius: 5px;
-    width: 300px;
+    width: 400px;
     height: 400px;
 }
 
 .box5card2{
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    border-radius: 5px;
-    width: 462px;
-    height: 400px;
+    margin-top: 100px;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    width: 1250px;
+    height: 500px;
 }
 
-.box6 {
-    height: 300px;
-}
 
 .box7 {
     width: 100%;
@@ -134,17 +138,53 @@ a.top {
     border-radius: 5px;
 }
 
-.card3{
-    width: 350px;
-    height: 400px;
-    border-radius: 5px;
-}
 
 .card3_card{
-    background-color: darkslategrey;
+    background-color: black;
+    opacity: .3;
     border-radius: 6px;
-    width: 75%;
-    margin-right: 10%;
-    margin-left: 15%;
-    height: 45px;
+    width: 263px;
+    height: 405px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.skbox{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    height: 50px;
+    color: #FFD4B5;
+    font-size: 25px;
+    font-weight: 350;
+}
+
+.block1{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.line1{
+    border-bottom: 1px solid white;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.line2{
+    border-bottom: 2px solid white;
+    margin-right: 45%;
+    margin-left: 5%;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+.line3{
+    border-bottom: 2px dashed white;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 3px;
+    margin-bottom: 2px;
 }

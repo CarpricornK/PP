@@ -1,7 +1,7 @@
 
 @keyframes disappear {
     from{
-        opacity: 0.2;
+        opacity: .3;
     }
     to{
         background-color: white;
@@ -16,6 +16,6 @@
     }
     to{
         background-color: black;
-        opacity: 0.2;
+        opacity: .3;
     }
 }

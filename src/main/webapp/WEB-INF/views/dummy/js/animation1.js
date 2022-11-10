@@ -22,7 +22,6 @@ text.style.cssText =
 
 
 const mainText1 = document.querySelector(".box5");
-const mainText2 = document.querySelector(".box5card");
 
 window.addEventListener('scroll',function (){
     let value = window.scrollY
