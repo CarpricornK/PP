@@ -15,7 +15,7 @@ public class PPController {
     @GetMapping({ "", "/" })
     public String index(Model model) throws Exception {
 
-        return "/main/index";
+        return "/main/index2";
     }
 
 }

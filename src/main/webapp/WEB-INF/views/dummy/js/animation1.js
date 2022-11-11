@@ -22,6 +22,8 @@ text.style.cssText =
 
 
 const mainText1 = document.querySelector(".box5");
+const mainText2 = document.querySelector(".image2");
+const mainText3 = document.querySelector(".image2box2");
 
 window.addEventListener('scroll',function (){
     let value = window.scrollY
@@ -39,6 +41,11 @@ window.addEventListener('scroll',function (){
         mainText1.style.animation='disappear2 1s ease-out forwards';
         $(".box5card").fadeOut(500);
         $(".box5card2").fadeOut(500);
+    }
+    if (value>1500) {
+        mainText2.style.backgroundColor="darkorange";
+        mainText2.style.transitionDuration="3s";
+        mainText3.style.animation='disappear3 3s ease-out forwards';
     }
 });
 

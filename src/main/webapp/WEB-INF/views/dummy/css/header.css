@@ -68,19 +68,21 @@ a {
 
 .box7 {
     width: 100%;
-    min-height: 1200px;
+    min-height: 1100px;
     position: relative;
 }
 
 .image1 {
-    background: url(https://images.wallpaperscraft.com/image/single/boat_mountains_lake_135258_2560x1600.jpg) center no-repeat;
-    background-attachment: fixed;
+    /*background: url(https://images.wallpaperscraft.com/image/single/boat_mountains_lake_135258_2560x1600.jpg) center no-repeat;*/
+    /*background-attachment: fixed;*/
+    background-color: darkorange;
 }
 
 .image2 {
-    background: url(https://images.wallpaperscraft.com/image/single/road_trees_shadow_119606_2560x1600.jpg) center no-repeat;
-    background-attachment: fixed;
-    background-blend-mode: darken;
+    /*background: url(https://images.wallpaperscraft.com/image/single/road_trees_shadow_119606_2560x1600.jpg) center no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-blend-mode: darken;*/
+    background-color: white;
 }
 
 .image3 {
@@ -138,7 +140,30 @@ a.top {
     border-radius: 5px;
 }
 
+.text1{
+    margin-top: 100px;
+    margin-left: -70px;
+    color: black;
+    padding-bottom: 15px;
+    padding-right: 900px;
+    border-bottom: 3px solid black;
+}
 
+.text2{
+    margin-top: 100px;
+    color: black;
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-right: 300px;
+    border-bottom: 3px solid black;
+}
+.ttbox{
+    width: 350px;
+    margin-left: 55px;
+}
+span{
+    word-break: break-all;
+}
 .card3_card{
     background-color: black;
     opacity: .3;
@@ -187,4 +212,16 @@ a.top {
     margin-left: 5%;
     margin-top: 3px;
     margin-bottom: 2px;
+}
+
+.image2box1{
+    width: 40%;
+    height: 1100px;
+}
+
+.image2box2{
+    background: url(https://images.wallpaperscraft.com/image/single/code_programming_text_140050_1920x1200.jpg) no-repeat;
+    width: 60%;
+    height: 1100px;
+    opacity: 0;
 }

@@ -19,3 +19,12 @@
         opacity: .3;
     }
 }
+
+@keyframes disappear3 {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
