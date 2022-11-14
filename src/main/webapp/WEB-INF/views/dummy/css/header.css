@@ -15,9 +15,14 @@ a {
 }
 
 .box2{
-    background-color: black;
+    background-color: white;
     height: 300px;
-    opacity: .3;
+}
+
+.box2p{
+    clip-path: circle(30% at 50% 50%);
+    background-color: #FFD3B5;
+    width: 400px;
 }
 
 .box2 > a {
@@ -49,10 +54,30 @@ a {
     width: 100%;
 }
 
+.pabox{
+ margin-top: 100px;
+ margin-left: 140px;
+ margin-right: 140px;
+}
+
+.pbox{
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+}
+
+.pboxh{
+    width: 100%; height: 340px;
+}
+
+.pboxb{
+    width: 100%; height: 60px; border-top:1px solid #DDDD; border-bottom:1px solid #DDDD; background-color: white;
+}
+
 .box5card{
     margin-top: 50px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    border-radius: 5px;
+    border-radius: 15px;
     width: 400px;
     height: 400px;
 }
@@ -142,11 +167,11 @@ a.top {
 
 .text1{
     margin-top: 100px;
-    margin-left: -70px;
+    margin-left: -80px;
     color: black;
     padding-bottom: 15px;
     padding-right: 900px;
-    border-bottom: 3px solid black;
+    border-left: 4px solid black;
 }
 
 .text2{
@@ -157,6 +182,11 @@ a.top {
     padding-right: 300px;
     border-bottom: 3px solid black;
 }
+
+.text3{
+    margin-left: 230px;
+}
+
 .ttbox{
     width: 350px;
     margin-left: 55px;
@@ -224,4 +254,11 @@ span{
     width: 60%;
     height: 1100px;
     opacity: 0;
+}
+
+.pic{
+    background-color: #DDDD;
+    width: 180px;
+    height: 180px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
 }

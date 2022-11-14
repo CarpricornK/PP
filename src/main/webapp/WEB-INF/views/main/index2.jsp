@@ -35,6 +35,8 @@
 <style>
     <%@ include file="../dummy/css/header.css"%>
 
+    <%@ include file="../dummy/css/textstyle.css"%>
+
     <%@ include file="../dummy/css/animation.css"%>
 </style>
 
@@ -43,16 +45,27 @@
 
 <div class="image1 box7">
     <div class="box2 d-flex justify-content-center">
+        <div class="box2p">
+
+        </div>
     </div>
 
-    <span class="d-flex justify-content-end mr-2" style="color: white">Gowert</span>
+    <span class="d-flex justify-content-end mr-2" style="color: black">Gowert : gagaregerag</span>
 
-    <div class="d-flex mt-4 justify-content-center row">
+    <span class="d-flex justify-content-end mr-2" style="color: black">Gowert : gagaregerag</span>
 
+    <span class="d-flex justify-content-end mr-2" style="color: black">Gowert : gagaregerag</span>
+
+    <span class="d-flex justify-content-end mr-2" style="color: black">Gowert : gagaregerag</span>
+
+    <div class="d-flex justify-content-center row">
         <div style="">
             <h2 class="text1">&nbsp;asdasd</h2>
         </div>
+    </div>
 
+    <div class="d-flex mt-4 justify-content-start">
+            <h5 class="text3">&nbsp;dtkukydukduykdyukarnternta34m3m36,21c321312atnneran3</h5>
     </div>
 
     <div class="d-flex mt-1 justify-content-center row">
@@ -95,7 +108,6 @@
 
 
     <div class="box5">
-
         <h2 class="d-flex justify-content-center pt-5">aghcvbfyuyfmagregaebjtyd</h2>
 
             <div class="bbox d-flex justify-content-center row">
@@ -104,9 +116,64 @@
                 <div class="box5card animate__animated animate__fadeInUp animate__delay-2s"id="ani3"></div>
             </div>
 
+
+        <h2 class="d-flex justify-content-center pt-5">TATATA</h2>
+        <div class="pabox d-flex justify-content-around">
+            <div class="pbox">
+                <div class="pboxh">
+                    <h6 class="ml-1">aergeag</h6>
+                    <div class="d-flex justify-content-center">
+                      <div class="pic mt-4"></div>
+                    </div>
+                    <br/>
+                    <span class="">weafgergeragetextxetextxetxetxetxtextxte</span>
+                </div>
+                <div class="pboxb"></div>
+            </div>
+
+            <div class="pbox">
+                <div class="pboxh">
+                    <h6 class="ml-1">aergeag</h6>
+                    <div class="d-flex justify-content-center">
+                        <div class="pic mt-4"></div>
+                    </div>
+                    <br/>
+                    <span class="">weafgergeragetextxetextxetxetxetxtextxte</span>
+                </div>
+                <div class="pboxb"></div>
+            </div>
+
+            <div class="pbox">
+                <div class="pboxh">
+                    <h6 class="ml-1">aergeag</h6>
+                    <div class="d-flex justify-content-center">
+                        <div class="pic mt-4"></div>
+                    </div>
+                    <br/>
+                    <h6 class="textstyle2">weafgergeragetextxetextxetxetxetxtextxte</h6>
+                </div>
+                <div class="pboxb"></div>
+            </div>
+
+            <div class="pbox">
+                <div class="pboxh">
+                    <h6 class="ml-1">aergeag</h6>
+                    <div class="d-flex justify-content-center">
+                        <div class="pic mt-4"></div>
+                    </div>
+                    <br/>
+                    <span class="textstyle1">weafgergeragetextxetextxetxetxetxtextxte</span>
+                </div>
+                <div class="pboxb d-flex justify-content-center align-items-center">ASDAFEA</div>
+            </div>
+        </div>
+
         </div>
     </div>
+
+
     </div>
+
 
 
 </div>
